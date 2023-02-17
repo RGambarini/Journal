@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Do digital monkeys dream of electronic sonnets?
+title: Do Digital Monkeys Dream of Electronic Sonnets?
 description: The curious birth of information from randomness
 tags: Information-Theory Statistical-Mechanics Computer-Simulation
 giscus_comments: true
@@ -54,6 +54,17 @@ _styles: >
 ## What is Information?
 
 We can visualize it as data entries on an excel sheet, hear it as news, or flagrantly displayed on social media. It can be simple or complex, objective or subjective, true or false. This 'thing' we call information is the currency we use to exchange knowledge. As the saying goes, knowledge is power, and information is the raw material that powers our knowledge. But how much is one unit of information? To quantify information, let's look at what physics tells us about it. 
+
+***
+
+## The Infinitely Small Possibilities
+
+The infinite monkey theorem is a popular thought experiment that shows the reality of minuscule probabilities. It considers the possibility that if you had a monkey use a typewriter, and the monkey could hit random keys for an infinite amount of time, that eventually he would eventually create a perfect copy of William Shakespeare's complete works. Mind you, there is nothing special about the Bard's timeless works. The same could be said about any text that ever existed. The floor in this monkey's room might as well be filled with every text ever conceived, every book that will be eventually written, and even your sunday shopping list. This certainly doesn't seem realistic does it? And it is not. At least not in this universe. Infinity remains a mathematical concept, far removed from the reality of physics. The probability of 
+
+***
+
+## Down to Monkey Business
+
 
 ***
 
