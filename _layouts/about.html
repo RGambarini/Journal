@@ -40,6 +40,27 @@ layout: default
             {{ content }}
           </div>
 
+          <hr>
+
+          <div class="latest-posts">
+            <h2 class="h5 mb-3">Latest Posts</h2>
+            <ul class="list-unstyled">
+              {% assign latest_posts = site.posts | limit: 5 %}
+              {% for post in latest_posts %}
+                {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+                {% assign year = post.date | date: "%Y" %}
+                {% assign tags = post.tags | join: "" %}
+                {% assign categories = post.categories | join: "" %}
+        
+                <li class="mb-3">
+                  <h3 class="h6"><a class="text-muted" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                  <p class="mb-1">{{ post.description }}</p>
+                  <p class="small text-muted">{{ post.date | date: '%B %-d, %Y' }} &bull; {{ read_time }} min read</p>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+
           <!-- Social -->
           {%- if page.social %}
             <div class="social">
