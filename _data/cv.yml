@@ -2,96 +2,103 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Roberto A. Gambarini
+    - name: Born
+      value: 1997
+    - name: Nationality
+      value: Italian, Venezuelan
     - name: Languages
-      value: English, German
+      value: Spanish, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MRes
+      institution: Imperial College London, London, England
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Programme focused on advancing the understanding in molecular science and engineering with a three month industry placement. The course includes modules about optimization, simulation, programming, and ecologic responsibility in the context of molecular physics.
+    - title: BSc
+      institution: University of South Carolina, Columbia, South Carolina US
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Applied the principles of kinetics for applications involving biochemical and biological systems to design a bioreactor
+        - Used the conservation laws of biological and biomedical systems to design a transdermal delivery device for the non-invasive delivery of Rivastigmine for the treatment of Alzheimer’s disease
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: COVID Senior Testing Technician
+      institution: Collinson Group
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Performed tests such as Lateral Flow - Rapid Antigen Test, RT-LAMP, and RT-PCR for the detection of COVID-19 for the purpose of travelling in our out of the UK
+        - Worked in a high-output aseptic UKAS compliant environment with direct interaction with customers
+        - Supported the senior nurse in the training and supervision of other technicians
+        - Acted as liaison between the testing centre and the lab
+
+    - title: Teaching Assistant - Mechanical Engineering Senior Design
+      institution: University of South Carolina - Mechanical Engineering Department, Columbia, South Carolina US
+      year: 2019 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Graded assignments and organized peer evaluations using Visual Basic for Applications
+        - Managed communications and evaluations between members in each design group
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Laboratory/Teaching Assistant - Human Anatomy & Physiology for Biomedical Engineers
+      institution: University of South Carolina - School of Medicine, Columbia, South Carolina US
+      year: 2019 - 2020
       description:
+        - Performed dissections on human cadavers used in the laboratory
+        - Assisted students in basic human anatomy using human cadavers
+        - Maintained, cleaned, and sterilized laboratory and safety equipment
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Assistant Researcher - POCD for resource limited settings using Nanotechnology. Dr. Chang Liu Lab
+      institution: University of South Carolina - Chemical Engineering Department, Columbia, South Carolina US
+      year: 2018 - 2020
+      description:
+        - Operated a 3rd gen sequencing tool “Nanopore”. As a detection and sequencing tool of polynucleotides
+        - Developed the lab’s graphing software using R Language
+        - Created the website at the request of the Principal Investigator
+        - Performed extensive literature review for the detection of circulating RNA from HIV
+
+    - title: Lead Researcher - Manipulation of Cell Membrane Environment to Prevent Fusion among Immune Cells
+      institution: University of South Carolina - Biomedical Engineering Department, Columbia, South Carolina US
+      year: 2019 - 2020
+      description:
+        - Used a molecular dynamics simulation package to simulate cell membrane fusion at different cholesterol concentrations
+        - Established standard protocol procedure for future research groups to follow
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/RGambarini/SolMod.jl">SolMod.jl</a>
+      year: 2022-now
+      description: A package used for the prediction of solubility focused on creating ternary phase diagrams for pharmaceutical solubility of enantiopure drugs.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2019
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - McNair Undergraduate Research Award
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Quantum Mechanics
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Modelling of electronic configuration
+        - Quantum Computing
+
+    - title: Statistical Mechanics
       items:
-        - Description 1.
-        - Description 2.
+        - Link between statistical mechanics and information theory
+        - Novel methods of modelling complex mixtures
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Magic The Gathering, New Music, Retro Games
