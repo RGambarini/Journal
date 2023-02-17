@@ -1,25 +1,15 @@
 ---
 layout: distill
-title: Distill Template
-description: an example of a distill-style blog post and main elements
+title: Do digital monkeys dream of electronic sonnets?
+description: The curious birth of information from randomness
+tags: Information-Theory Statistical-Mechanics Computer-Simulation
 giscus_comments: true
-date: 2021-05-22
+date: 2022-02-17
 
 authors:
-  - name: Albert Einstein
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+  - name: Roberto A. Gambarini
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
-
-bibliography: 2018-12-22-distill.bib
+      name: Imperial College London
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -28,7 +18,7 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
-  - name: Equations
+  - name: What is Information?
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
@@ -60,20 +50,9 @@ _styles: >
 
 ---
 
-## Equations
+## What is Information?
 
-This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
-You just need to surround your math expression with `$$`, like `$$ E = mc^2 $$`.
-If you leave it inside a paragraph, it will produce an inline expression, just like $$ E = mc^2 $$.
-
-To use display mode, again surround your expression with `$$` and place it as a separate paragraph.
-Here is an example:
-
-$$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-$$
-
-Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html) that brought a significant improvement to the loading and rendering speed, which is now [on par with KaTeX](http://www.intmath.com/cg5/katex-mathjax-comparison.php).
+We can visualize it as data entries on an excel sheet, hear it as news, or flagrantly displayed on social media. It can be simple or complex, objective or subjective, true or false. This 'thing' we call information is the currency we use to exchange knowledge. As the saying goes, knowledge is power, and information is the raw material that powers our knowledge. But how much is one unit of information? To quantify information, let's look at what physics tells us about it. 
 
 ***
 
