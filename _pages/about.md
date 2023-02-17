@@ -1,25 +1,28 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  #address: >
+  #  <p>555 your office number</p>
+  #  <p>123 your address street</p>
+  #  <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Roberto Gambarini and I am a researcher and engineer with a background in **biology**, **chemistry**, and **physics**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I was born in Caracas, Venezuela in 1997 and earned my BSc in **Biomedical Engineering** with a minor in **Chemistry** from the University of South Carolina in 2020 (fun year). During my undergraduate studies, I conducted research on point of care diagnostics for resource limited settings using nanotechnology, as well as research on the manipulation of cell membrane environment to prevent fusion among immune cells using computer simulations.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+After completing my undergraduate degree, I pursued an MRes in **Molecular Engineering** from Imperial College London and graduated with distinction. The MRes was hosted by the Institute Molecular Science and Engineering, one of Imperial College London's seven Global Challenge Institutes. During this program, I collaborated with the company BASF to develop a computational tool for the prediction of enantiomeric solubility.
+
+My research interests include **Quantum Mechanics**, **Statistical Mechanics**, and **Fundamental Physics**, and I am eager to continue exploring these topics and their potential applications in the field of molecular engineering and beyond.
+
+*I also like long walks on the beach, cozy rainy days, and a good book*
