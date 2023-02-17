@@ -5,6 +5,7 @@ description: The curious birth of information from randomness
 tags: Information-Theory Statistical-Mechanics Computer-Simulation
 giscus_comments: true
 date: 2022-02-17
+img: assets/img/Shakespeare_monkey.jpg
 
 authors:
   - name: Roberto A. Gambarini
