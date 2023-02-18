@@ -1,11 +1,12 @@
 ---
 layout: distill
-title: Do Digital Monkeys Dream of Electronic Sonnets?
-description: The curious birth of information from randomness
-tags: Information-Theory Statistical-Mechanics Computer-Simulation
+title: Journey to the Center of Infinity
+description: So... are we there yet?
+tags: Mathematics Physics
 giscus_comments: true
-date: 2022-02-17
-img: assets/img/Shakespeare_monkey.jpg
+date: 2023-02-17
+img:
+bibliography: 2023-02-18-Journey_to_the_Center_of_Infinity.bib
 
 authors:
   - name: Roberto A. Gambarini
@@ -20,16 +21,7 @@ authors:
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: What is Information?
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
-  - name: Citations
-  - name: Footnotes
-  - name: Code Blocks
-  - name: Interactive Plots
-  - name: Layouts
-  - name: Other Typography?
+  - name: The Intuitionists against the Formalists
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -51,22 +43,47 @@ _styles: >
 
 ---
 
-## What is Information?
+## It is way Bigger than you Think
 
-We can visualize it as data entries on an excel sheet, hear it as news, or flagrantly displayed on social media. It can be simple or complex, objective or subjective, true or false. This 'thing' we call information is the currency we use to exchange knowledge. As the saying goes, knowledge is power, and information is the raw material that powers our knowledge. But how much is one unit of information? To quantify information, let's look at what physics tells us about it. 
+Think of the biggest number possible. Let me give you some help. A googolplex is the largest named number that is equal to 10 raised to the power of a googol ($$ \text{googol} = 10^{100} $$) <d-cite key="kasner2001mathematics"></d-cite>. To put it into perspective, there are around $$ 10^{80} $$ atoms in the known <d-cite key="universe davies1978tailor"></d-cite>. 
+
+$$ \text{googolplex} = 10^{\text{googol}} $$
+
+Then there is Graham's number, which was derived by Ronald Graham in the late 1970s . Graham's number is connected to a problem in [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_theory), which is an area in mathematics that deals with [combinatorial](https://en.wikipedia.org/wiki/Combinatorics) objects <d-cite key="graham1991ramsey"></d-cite>. The problem deals with finding the nodes in an [n-dimensional hypercube](https://en.wikipedia.org/wiki/Hypercube). Graham's number is the upper bound of this problem <d-cite key="griess1973schur"></d-cite>. This number is so extremely large that it can't even be written exactly <d-cite key="graham1989concrete"></d-cite>. 
+
+Problem
+
+You might be thinking that this doesn't make much sense, but in the same way that one would instinctively know that an adult has to be taller than a baby, we can also intuitively define that this upper bound is much bigger than any other quantity. So large in fact, that there is no physical analogy that I can give you. If we were to pixelate the entire universe in the [smallest possible size](https://en.wikipedia.org/wiki/Planck_units) allowed in quantum physics, that would still only give us a mere $$ 10^{184} $$ <d-cite key="ade2016planck"></d-cite>. Which is only slightly bigger than a googolplex, and minuscule compared to Graham's number.
+
+Let's take Graham's number and see how much bigger we can go. We could simply have Graham's number to the power of itself, but lets just use an even more powerful tool. The [hyperoperators](https://en.wikipedia.org/wiki/Hyperoperation). The Knuth arrow notation ($$ \uparrow $$)  might not be a symbol you are used to, but it can be used to represent a nested exponentiation in a concise manner <d-cite key="knuth1984mathematics"></d-cite>.
+
+* The single arrow ($$ \uparrow $$) represents exponentiation:
+
+$$ 2 \uparrow 4 = 2\times(2\times(2\times 2)) = 2^4 = 16 $$
+
+* Two arrows, one right after another, ($$ \uparrow \uparrow $$)  represents tetration:
+
+$$ 2 \uparrow\uparrow 4 =  2 \uparrow (2 \uparrow (2 \uparrow 2))= 2^{2^{2^{2}}} = 2^{16} = 65,536 $$
+
+* Three arrows ($$ \uparrow\uparrow\uparrow $$) represents pentation. As much as I want to give you the final answer of this example... it's just ridiculously big:
+ 
+$$ 2 \uparrow\uparrow\uparrow 4 = 2 \uparrow\uparrow (2 \uparrow\uparrow (2 \uparrow\uparrow 2 )) = 2 \uparrow\uparrow 65,536 $$
+
+Although these hyperoperations can be powered up even further using the [conway chained arrow notation](https://en.wikipedia.org/wiki/Conway_chained_arrow_notation), this should suffice for now. Now let's try applying this tool to the already ridiculously big Graham's number. Consider using it as a base for the pentation and itself for the pentation exponent. And just for kicks, lets just take the factorial of this:
+
+$$ (G \uparrow \uparrow \uparrow G)! = \text{An impossibly large number}  $$
+
+Even after defining an already impossibly large number and using an operator that skyrockets it to a power of itself, this is still microscopic when compared to infinity. Graham's number goes beyond a number that would be possible in this universe, so it is quite a challenge to comprehend the vastness of infinity. Yet we use infinity constantly in mathematics. Its use dates back to the 4th century BC with Euclid's fundamental work in geometry and is also the basis in the development of Calculus by Newton and Leibniz around 350 years ago <d-cite key="dunham1991journey"></d-cite>. Infinity's abstract and unmeasurable essence defines many fundamental tools in mathematics, but its purely conceptual nature sparked a loud debate. This became the *casus belli* for a war that endangered the very nature of mathematics <d-cite key="kleiner2007history"></d-cite>.
 
 ***
 
-## The Infinitely Small Possibilities
+## The Intuitionists against the Formalists
 
-The infinite monkey theorem is a popular thought experiment that shows the reality of minuscule probabilities. It considers the possibility that if you had a monkey use a typewriter, and the monkey could hit random keys for an infinite amount of time, that eventually he would eventually create a perfect copy of William Shakespeare's complete works. Mind you, there is nothing special about the Bard's timeless works. The same could be said about any text that ever existed. The floor in this monkey's room might as well be filled with every text ever conceived, every book that will be eventually written, and even your sunday shopping list. This certainly doesn't seem realistic does it? And it is not. At least not in this universe. Infinity remains a mathematical concept, far removed from the reality of physics. The probability of 
-
-***
-
-## Down to Monkey Business
-
+What later became known as the "Foundational Crisis of Mathematics" (personally a bit much), was a conflict between formalists and intuitionists that lasted from the late 19th century to the mid-20th century. On one side of the ring you had the "formalists", who believed that infinity was just a symbol, a tool used to make calculations easier. And at the other end were the "intuitionists" who believed that infinity was a real entity, that it existed in a Platonic sense. There were several factors that sparked this debate, such as the discovery of applications for Non-Euclidian geometry and a search for better defined mathematical limits, but the biggest instigator was German mathematician Georg Cantor. 
 
 ***
+
+ <d-cite key=""></d-cite>
 
 ## Citations
 
