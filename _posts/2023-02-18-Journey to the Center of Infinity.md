@@ -45,7 +45,7 @@ _styles: >
 
 ## It is way Bigger than you Think
 
-Think of the biggest number possible. Let me give you some help. A googolplex is the largest named number that is equal to 10 raised to the power of a googol ($$ \text{googol} = 10^{100} $$) <d-cite key="kasner2001mathematics"></d-cite>. To put it into perspective, there are around $$ 10^{80} $$ atoms in the known <d-cite key="universe davies1978tailor"></d-cite>. 
+Think of the biggest number possible. Let me give you some help. A googolplex is the largest named number that is equal to 10 raised to the power of a googol ($$ \text{googol} = 10^{100} $$) <d-cite key="kasner2001mathematics"></d-cite>. To put it into perspective, there are around $$ 10^{80} $$ atoms in the known universe <d-cite key="davies1978tailor"></d-cite>. 
 
 $$ \text{googolplex} = 10^{\text{googol}} $$
 
@@ -82,8 +82,6 @@ Even after defining an already impossibly large number and using an operator tha
 What later became known as the "Foundational Crisis of Mathematics" (personally a bit much), was a conflict between formalists and intuitionists that lasted from the late 19th century to the mid-20th century. On one side of the ring you had the "formalists", who believed that infinity was just a symbol, a tool used to make calculations easier. And at the other end were the "intuitionists" who believed that infinity was a real entity, that it existed in a Platonic sense. There were several factors that sparked this debate, such as the discovery of applications for Non-Euclidian geometry and a search for better defined mathematical limits, but the biggest instigator was German mathematician Georg Cantor. 
 
 ***
-
- <d-cite key=""></d-cite>
 
 ## Citations
 
