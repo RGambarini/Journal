@@ -5,7 +5,7 @@ description: So... are we there yet?
 tags: Mathematics Physics
 giscus_comments: true
 date: 2023-02-17
-img:
+img: assets/img/Math_Vortex.png
 bibliography: 2023-02-18-Journey_to_the_Center_of_Infinity.bib
 
 authors:
@@ -19,6 +19,7 @@ authors:
 #     for hyperlinks within the post to work correctly.
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
+
 toc:
   - name: What is Information?
   - name: The Intuitionists against the Formalists
@@ -51,7 +52,8 @@ $$ \text{googolplex} = 10^{\text{googol}} $$
 
 Then there is Graham's number, which was derived by Ronald Graham in the late 1970s . Graham's number is connected to a problem in [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_theory), which is an area in mathematics that deals with [combinatorial](https://en.wikipedia.org/wiki/Combinatorics) objects <d-cite key="graham1991ramsey"></d-cite>. The problem deals with finding the nodes in an [n-dimensional hypercube](https://en.wikipedia.org/wiki/Hypercube). Graham's number is the upper bound of this problem <d-cite key="griess1973schur"></d-cite>. This number is so extremely large that it can't even be written exactly <d-cite key="graham1989concrete"></d-cite>. 
 
-Problem
+{% include figure.html path="assets/img/Black_hypercube.png" %}
+
 
 You might be thinking that this doesn't make much sense, but in the same way that one would instinctively know that an adult has to be taller than a baby, we can also intuitively define that this upper bound is much bigger than any other quantity. So large in fact, that there is no physical analogy that I can give you. If we were to pixelate the entire universe in the [smallest possible size](https://en.wikipedia.org/wiki/Planck_units) allowed in quantum physics, that would still only give us a mere $$ 10^{184} $$ <d-cite key="ade2016planck"></d-cite>. Which is only slightly bigger than a googolplex, and minuscule compared to Graham's number.
 
@@ -69,38 +71,57 @@ $$ 2 \uparrow\uparrow 4 =  2 \uparrow (2 \uparrow (2 \uparrow 2))= 2^{2^{2^{2}}}
  
 $$ 2 \uparrow\uparrow\uparrow 4 = 2 \uparrow\uparrow (2 \uparrow\uparrow (2 \uparrow\uparrow 2 )) = 2 \uparrow\uparrow 65,536 $$
 
-Although these hyperoperations can be powered up even further using the [conway chained arrow notation](https://en.wikipedia.org/wiki/Conway_chained_arrow_notation), this should suffice for now. Now let's try applying this tool to the already ridiculously big Graham's number. Consider using it as a base for the pentation and itself for the pentation exponent. And just for kicks, lets just take the factorial of this:
+Although these hyperoperations can be powered up even further using the [conway chained arrow notation](https://en.wikipedia.org/wiki/Conway_chained_arrow_notation), this should suffice for now. Now let's try applying this tool to the already ridiculously big Graham's number. Consider using it as a base for the pentation and itself for the pentation exponent. And just for kicks, lets just take the factorial <d-footnote> The factorial of a number would be a series of operations in a number is multiplied by by the same number minus one until its multiplied by 1 $$a! = a \times (a - 1) \times ... \times 1 $$ </d-footnote> of this:
 
 $$ (G \uparrow \uparrow \uparrow G)! = \text{An impossibly large number}  $$
 
-Even after defining an already impossibly large number and using an operator that skyrockets it to a power of itself, this is still microscopic when compared to infinity. Graham's number goes beyond a number that would be possible in this universe, so it is quite a challenge to comprehend the vastness of infinity. Yet we use infinity constantly in mathematics. Its use dates back to the 4th century BC with Euclid's fundamental work in geometry and is also the basis in the development of Calculus by Newton and Leibniz around 350 years ago <d-cite key="dunham1991journey"></d-cite>. Infinity's abstract and unmeasurable essence defines many fundamental tools in mathematics, but its purely conceptual nature sparked a loud debate. This became the *casus belli* for a war that endangered the very nature of mathematics <d-cite key="kleiner2007history"></d-cite>.
+Even after defining an already impossibly large number and using an operator that skyrockets it to a power of itself, this is still microscopic when compared to infinity. Graham's number goes beyond a number that would be possible in this universe, so it is quite a challenge to comprehend the vastness of infinity. Yet we use infinity constantly in mathematics. Its use dates back to the 4th century BC with Euclid's fundamental work in geometry and is also the basis in the development of Calculus by Newton and Leibniz around 350 years ago <d-cite key="dunham1991journey"></d-cite>. Infinity's abstract and unmeasurable essence defines many fundamental tools in mathematics, but its purely conceptual nature sparked a loud debate. This became the *casus belli* for a war that endangered the very nature of mathematics <d-cite key="kleiner2007history"></d-cite> <d-footnote>If this section seems interesting to you, you can continue reading about impossibly large numbers in "The Biggest Number in the World: A Journey to the Edge of Mathematics" a book by David Darling and Agnijo Banerjee</d-footnote>.
 
 ***
 
 ## The Intuitionists against the Formalists
 
-What later became known as the "Foundational Crisis of Mathematics" (personally a bit much), was a conflict between formalists and intuitionists that lasted from the late 19th century to the mid-20th century. On one side of the ring you had the "formalists", who believed that infinity was just a symbol, a tool used to make calculations easier. And at the other end were the "intuitionists" who believed that infinity was a real entity, that it existed in a Platonic sense. There were several factors that sparked this debate, such as the discovery of applications for Non-Euclidian geometry and a search for better defined mathematical limits, but the biggest instigator was German mathematician Georg Cantor. 
+What later became known as the "Foundational Crisis of Mathematics"<d-footnote> Personally the title is a bit much</d-footnote>, was a conflict between formalists and intuitionists that lasted from the late 19th century to the mid-20th century. On one side of the ring you had the "formalists", who believed that infinity was just a symbol, a tool used to make calculations easier. And at the other end were the "intuitionists" who believed that infinity was a real entity, that it existed in a Platonic sense. There were several factors that sparked this debate, such as the discovery of applications for Non-Euclidian geometry and a search for better defined mathematical limits, but the biggest instigator was German mathematician Georg Cantor.
 
-***
+Cantor is historically remembered for developing set theory, which is a branch of mathematics that studies collections of objects/numbers <d-footnote>Names such as Real Numbers, Imaginary Numbers, and Natural Numbers might help you remember the topic</d-footnote>. Unfortunately this superficially simple theory made Cantor *persona non-grata* among many mathematicians for the consequences that it provoked. Set theory showed that you could have many different values of infinity, making it a quantifiable element. While Cantor's mathematical proof is well documented and relatively simple, we can actually neglect much of the mathematics and rely on simple *intuition*.
 
-## Citations
+Natural numbers are:
 
-Citations are then used in the article body with the `<d-cite>` tag.
-The key attribute is a reference to the id provided in the bibliography.
-The key attribute can take multiple ids, separated by commas.
+$$1\qquad  2\qquad  3\qquad 4\qquad 5\qquad 6\qquad \infty \rightarrow$$
 
-The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
-If you have an appendix, a bibliography is automatically created and populated in it.
+$$\downarrow$$
 
-Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
-However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.
+$$\begin{CD}
+. @=  .    \\
+@.   @|   @|\\
+@.    . @= .
+\end{CD}$$
 
-***
+$$\qquad \quad \mathbb{N}$$
 
-## Footnotes
+Real numbers are:
 
-Just wrap the text you would like to show up in a footnote in a `<d-footnote>` tag.
-The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote>
+$$\leftarrow -\infty\quad -3\quad -2\quad -1\quad -0.5\qquad 0\qquad 0.5\qquad 1\qquad  2\qquad  3\qquad \infty \rightarrow$$
+
+$$\downarrow$$
+
+$$\begin{CD}
+. @=  .    \\
+@.   @|   @|\\
+@.    . @= .
+\end{CD}$$
+
+$$\qquad \quad \mathbb{R}$$
+
+Compare:
+
+$$\begin{CD}  . @= .\\ @|   @|\\  . @= .\\@. \vcenter{\hbox{$\displaystyle \mathrm{\mathbb{N}}$}} @. \end{CD}  
+
+\qquad < \qquad
+
+\begin{CD} . @= .\\@|   @|\\ . @= .\\@. \vcenter{\hbox{$\displaystyle \mathrm{\mathbb{R}}$}} @.\end{CD}$$
+
+
 
 ***
 
