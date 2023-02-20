@@ -23,6 +23,8 @@ authors:
 toc:
   - name: It is way bigger than you think
   - name: The Intuitionists against the Formalists
+  - name: Infinity in a physical world
+  - name: Yeah, we are not there yet
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -138,27 +140,62 @@ $$\begin{CD}  . @= .\\ @|   @|\\  . @= .\\@. \vcenter{\hbox{$\displaystyle \math
 
 \begin{CD} . @= .\\@|   @|\\ . @= .\\@. \vcenter{\hbox{$\displaystyle \mathrm{\mathbb{R}}$}} @.\end{CD}$$
 
-That leads to a strange outcome that breaks any statement in the previous section. You can quantify infinity. It's no longer an abstract tool like functions, combinatorials, or graphs. This outraged the formalists, who could not fathom considering infinity as anything else. But it was too late. As David Hilbert, famous German mathematician, piously puts it, "*No one shall expel us from the paradise that Cantor has created*" <d-cite key="boyer1959history"></d-cite>. 
+That leads to a strange outcome that breaks any statement in the previous section. You can quantify infinity. It's no longer an abstract tool like functions, combinatorials, or graphs. This outraged the formalists, who could not fathom considering infinity as anything else. But it was too late. As David Hilbert, famous German mathematician, piously puts it, <d-cite key="boyer1959history"></d-cite>
 {: style="text-align: justify;"}
 
-Indeed, the genie was out of the bag and the nature of mathematics was put into question. What is the proper role of intuition in mathematical reasoning? Is mathematics truly objective or absolute? What is the nature of similar mathematical objects? These are philosophical questions, but these led to the advancement of computer science, model theory, and theoretical physics <d-cite key="ernest2016philosophy"></d-cite>. 
+> *No one shall expel us from the paradise that Cantor has created* 
+
+Indeed, the genie was out of the bottle and the nature of mathematics was put into question. What is the proper role of intuition in mathematical reasoning? Is mathematics truly objective or absolute? What is the nature of similar mathematical objects? These are philosophical questions, but these led to the advancement of computer science, model theory, and theoretical physics <d-cite key="ernest2016philosophy"></d-cite>. 
 {: style="text-align: justify;"}
 
 However there is no satisfying end to this story. Both the intuitionists and formalists developed multiple solutions to the apparent paradox <d-cite key="brouwer1975intuitionism"></d-cite>. All of them relied on methods to formalize the rules in mathematics, which were each successful in their own regard, but did not resolve this crisis independently. Formalism, intuitionism, and the theory of types all played important roles in the development of modern mathematics, and together they helped to establish a more rigorous and consistent foundation for the subject. Thanks to this new consistency, most mathematicians would agree that the paradoxes and contradictions that once plagued the subject are now resolved <d-cite key="monk1973introduction"></d-cite>.
 {: style="text-align: justify;"}
 
-The questions that sparked this debate were not answered. But how could they? When mathematics itself says that they cannot be answered. In 1931, Kurt Gödel showed that any consistent axiomatic system that is powerful enough to encompass arithmetic must be incomplete <d-cite key="smullyan1992godel"></d-cite>. Incomplete meaning that there are true mathematical statements that cannot be proved or disproved within the system's rules <d-footnote>Who would've thought that math was such a rebel</d-footnote>. A proof that shows mathematical proofs are inherently fallible and that mathematical knowledge will never be fully complete is a paradox that would depress any mathematician if considered. Perhaps it is enough reason to ignore the statement and focus on something completely different. However, where there are limitations, the search for an answer might lead to other discoveries..
+The questions that sparked this debate were not answered. But how could they? When mathematics itself says that they cannot be answered. In 1931, Kurt Gödel showed that any consistent axiomatic system that is powerful enough to encompass arithmetic must be incomplete <d-cite key="smullyan1992godel"></d-cite>. Incomplete meaning that there are true mathematical statements that cannot be proved or disproved within the system's rules <d-footnote>Who would've thought that math was such a rebel</d-footnote>. A proof that shows mathematical proofs are inherently fallible and that mathematical knowledge will never be fully complete is a paradox that would depress any mathematician if considered<d-footnote>Note that this is a currently accepted fact, but does not imply that this will always be true</d-footnote>. Perhaps it is enough reason to ignore the statement and focus on something completely different <d-footnote>It is worth noting that this only refers to a subset of the field. There are many mathematicians working towards a complete solution such as Harvey Friedman and Solomon Feferman</d-footnote>. However, where there are limitations, the search for an answer might lead to other discoveries.
 {: style="text-align: justify;"}
 
  <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HeQX2HjkcNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 
 <div class="caption">
-    Further analysis of the conflict between the Intuitionists and the Formalists and the infinity problem was done by Veritasium in a video titled Math's Fundamental Flaw
+    <em>Further analysis of the conflict between the Intuitionists and the Formalists and the infinity problem was done by Veritasium in a video titled "Math's Fundamental Flaw".</em>
 </div>
 
 ***
 
 ## Infinity in a physical world
 
-While scientists have recently rejected philosophy towards a tendency for objective truth, the philosophical paradox of infinity can lead to some very interesting ideas when being asked in our universe. 
+While scientists have recently rejected philosophy towards a tendency for objective truth, the philosophical paradox of infinity can lead to some very interesting ideas when being asked in our universe. For over two thousand years, Zeno's paradoxes have challenged human understanding. In the fifth century BCE, a Greek philosopher named Zeno of Elea came up with the paradoxes. According to Zeno, the world we see around us is illusory, and only reason can reveal true reality. The purpose of his paradoxes was to illustrate the limitations of human perception and the limitations of our understanding of the physical world. Let's look at an example for one of the paradoxes:
+{: style="text-align: justify;"}
+
+While travelling, Aristotle met the great Greek hero Achilles<d-footnote>Fictional tale</d-footnote>. Knowing his legendary renown, he knew Achilles wouldn't back down of a simple challenge. Aristotle challenged Achilles to a footrace against a tortoise, with the rule that Achilles can only move to a position already covered by the tortoise. Considering the ridiculous assumption that he would be beaten by the small animal, Achilles accepted the challenge and gave the tortoise a considerable advantage:
+{: style="text-align: justify;"}
+
+{% include figure.html path="assets/img/achilles1.png"%}
+
+Achilles laughed at the poor pace that the tortoise had and reached its last position in no time. He would beat the animal without breaking a sweat:
+{: style="text-align: justify;"}
+
+{% include figure.html path="assets/img/achilles2.png"%}
+
+Noticing the apparent frustration of Achilles not being able to overtake the tortoise, Aristotle chimed in with the reminder of the challenge "You can only move to where the tortoise has already been".
+{: style="text-align: justify;"}
+
+{% include figure.html path="assets/img/achilles3.png"%}
+
+It was too late before Achilles understood the trick. There was no way that he would be able to get ahead of the turtle even if he was twice as fast as he is now. For this, Aristotle stated the obvious fact that was forgotten "*In a race, the quickest runner can never over­take the slowest, since the pursuer must first reach the point whence the pursued started, so that the slower must always hold a lead.*"
+{: style="text-align: justify;"}
+
+While the tale might seem silly at first, it presents a questionable statement about reality. In order to stick to the rules, could Achilles travel an infinitely decreasing space to reach the tortoise's last position? As British mathematician Bertrand Russell claimed, the paradox is "*immeasurably subtle and profound*". As we now know, the idea of an infinitely smaller space is not allowed in our current understanding of physics. While a deeper explanation would require a much more involved reasoning <d-footnote>Justifiably its own separate article in the future</d-footnote> we can limit the smallest size that we can measure to the Planck length<d-footnote>$$l_P = \sqrt{\frac{\hbar G}{c^3}}$$ $$l_P = \text{Planck length}$$ $$ \hbar = \text{Reduced Planck constant;}$$ $$ G = \text{Gravitational constant;}$$ $$ c = \text{Speed of light} $$</d-footnote>. By introducing the limit of our measurements to a volume of this length we are able to know how much smaller we are allowed to work with, and this quantity is definitely not infinitely small.
+{: style="text-align: justify;"}
+
+{% include figure.html path="assets/img/PlanckLength.png"%}
+
+<div class="caption">
+    <em>Relative scale of the Planck length. Measurements for the Atom and the proton are their respective radius. Figures for each object are not to scale</em>
+</div>
+
+What about if we went in the other direction? As far as we know, there is no limit to how big an object can be <d-footnote>That is, as long as it doesn't collapse under its own weight by the Tolman-Oppenheimer-Volkoff limit. Which again, is a separate topic of discussion.</d-footnote>. That being said, you might have heard of statements regarding the measurement of how big the Universe is. In fact it is how we are able to make the previous statement that there are around $$ 10^{80} $$ atoms in the known universe. That would contrast with available observations of the cosmic microwave background radiation, and large-scale structures that appear to be distributed uniformly on scales up to hundreds of millions of light-years. Which all point to the fact that as far as we can tell, the universe is infinite. How are these ideas able to reconcile each other? We can measure the observable universe, which is estimated to be about 93 billion light-years in diameter, but the universe is considered infinite in terms of its extent. Light takes time to travel these massive instances, and by the time they reach an observer, they've already become outdated measurements. Even though they lead to paradoxical statements, both are considered to be true under relativity. It might seem counter-intuitive, but this is born out of one of the problems in understanding science. Multiple theories regarding the same phenomena can be correct under their own set of circumstances. Even though it might seem infuriating as a student, this allows a flexible approach to research. This leads to novel research, which was the cause, conclusion, and remnants of the foundational crisis of mathematics.
+{: style="text-align: justify;"}
+
+## Yeah, we are not there yet
