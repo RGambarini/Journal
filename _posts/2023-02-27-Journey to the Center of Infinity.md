@@ -6,7 +6,7 @@ tags: Mathematics Physics
 giscus_comments: true
 date: 2023-02-27
 img: assets/img/Math_Vortex.png
-bibliography: 2023-02-18-Journey_to_the_Center_of_Infinity.bib
+bibliography: 2023-02-27-Journey_to_the_Center_of_Infinity.bib
 
 authors:
   - name: Roberto A. Gambarini
