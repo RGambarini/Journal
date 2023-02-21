@@ -4,8 +4,8 @@ title: Journey to the Center of Infinity
 description: So... are we there yet?
 tags: Mathematics Physics
 giscus_comments: true
-date: 2023-02-17
-img: assets/img/Math_Vortex.png
+date: 2023-02-02
+img: assets/img/Infinity/Math_Vortex.png
 bibliography: 2023-02-27-Journey_to_the_Center_of_Infinity.bib
 
 authors:
@@ -59,7 +59,7 @@ $$ \text{googolplex} = 10^{\text{googol}} $$
 Then there is Graham's number, which was derived by Ronald Graham in the late 1970s . Graham's number is connected to a problem in [Ramsey theory](https://en.wikipedia.org/wiki/Ramsey_theory), which is an area in mathematics that deals with [combinatorial](https://en.wikipedia.org/wiki/Combinatorics) objects <d-cite key="graham1991ramsey"></d-cite>. The problem deals with finding the nodes in an [n-dimensional hypercube](https://en.wikipedia.org/wiki/Hypercube). Graham's number is the upper bound of this problem <d-cite key="griess1973schur"></d-cite>. This number is so extremely large that it can't even be written exactly <d-cite key="graham1989concrete"></d-cite>.
 {: style="text-align: justify;"}
 
-{% include figure.html path="assets/img/White_hypercube.png"%}
+{% include figure.html path="assets/img/Infinity/White_hypercube.png"%}
 
 <div class="caption">
     Graham's Number is given by the upper bound of the following problem: Connect each pair of geometric vertices of an n-dimensional hypercube to obtain a complete graph on 2^n vertices. Colour each of the edges of this graph either red or blue. What is the smallest value of n for which every such colouring contains at least one single-coloured complete subgraph on four coplanar vertices?.
@@ -171,17 +171,17 @@ While scientists have recently rejected philosophy towards a tendency for object
 While travelling, Aristotle met the great Greek hero Achilles<d-footnote>Fictional tale</d-footnote>. Knowing his legendary renown, he knew Achilles wouldn't back down of a simple challenge. Aristotle challenged Achilles to a footrace against a tortoise, with the rule that Achilles can only move to a position already covered by the tortoise. Considering the ridiculous assumption that he would be beaten by the small animal, Achilles accepted the challenge and gave the tortoise a considerable advantage:
 {: style="text-align: justify;"}
 
-{% include figure.html path="assets/img/achilles1.png"%}
+{% include figure.html path="assets/img/Infinity/achilles1.png"%}
 
 Achilles laughed at the poor pace that the tortoise had, and reached its last position in no time. He would beat the animal without breaking a sweat:
 {: style="text-align: justify;"}
 
-{% include figure.html path="assets/img/achilles2.png"%}
+{% include figure.html path="assets/img/Infinity/achilles2.png"%}
 
 Noticing the apparent frustration of Achilles not being able to overtake the tortoise, Aristotle chimed in with the reminder of the challenge "You can only move to where the tortoise has already been".
 {: style="text-align: justify;"}
 
-{% include figure.html path="assets/img/achilles3.png"%}
+{% include figure.html path="assets/img/Infinity/achilles3.png"%}
 
 It was too late before Achilles understood the trick. There was no way that he would be able to get ahead of the turtle even if he was twice as fast as he is now. For this, Aristotle stated the obvious fact that was forgotten "*In a race, the quickest runner can never over­take the slowest, since the pursuer must first reach the point whence the pursued started, so that the slower must always hold a lead*"<d-cite key="huggett2002zeno"></d-cite>.
 {: style="text-align: justify;"}
@@ -189,7 +189,7 @@ It was too late before Achilles understood the trick. There was no way that he w
 While the tale might seem silly at first, it presents a questionable statement about reality. In order to stick to the rules, could Achilles travel an infinitely decreasing space to reach the tortoise's last position? As British mathematician Bertrand Russell claimed, the paradox is "*immeasurably subtle and profound*" <d-cite key="russell2022introduction"></d-cite>. As we now know, the idea of an infinitely smaller space is not allowed in our current understanding of physics. While a deeper explanation would require a much more involved reasoning <d-footnote>Justifiably its own separate article in the future</d-footnote> we can limit the smallest size that we can measure to the Planck length<d-footnote>$$l_P = \sqrt{\frac{\hbar G}{c^3}}$$ $$l_P = \text{Planck length}$$ $$ \hbar = \text{Reduced Planck constant;}$$ $$ G = \text{Gravitational constant;}$$ $$ c = \text{Speed of light} $$</d-footnote>. By introducing the limit of our measurements to a volume of this length we are able to know how much smaller we are allowed to work with, and this quantity is definitely not infinitely small. Even if we were to replace Achilles and the tortoise with perfectly tuned robots with perfectly tuned measurement devices, our measurements would start to become unmanagable way before reaching the Planck length<d-cite key="ade2016planck"></d-cite>.
 {: style="text-align: justify;"}
 
-{% include figure.html path="assets/img/PlanckLength.png"%}
+{% include figure.html path="assets/img/Infinity/PlanckLength.png"%}
 
 <div class="caption">
     <em>Relative scale of the Planck length. Measurements for the Atom and the proton are their respective radius. Figures for each object are not to scale</em>
@@ -198,7 +198,7 @@ While the tale might seem silly at first, it presents a questionable statement a
 What about if we went in the other direction? As far as we know, there is no limit to how big an object can be <d-footnote>That is, as long as it doesn't collapse under its own weight by the Tolman-Oppenheimer-Volkoff limit. Which again, is a separate topic of discussion.</d-footnote><d-cite key="carroll2017big"></d-cite>. That being said, you might have heard of statements regarding measuring the size of the universe. In fact it is how we are able to make the previous statement that there are around $$ 10^{80} $$ atoms in the known universe<d-cite key="davies1978tailor"></d-cite>. However, this contrasts with observations of the cosmic microwave background radiation, and large-scale structures that appear to be distributed uniformly on scales up to hundreds of millions of light-years. Which all point to the fact that as far as we can tell, the universe's expansiveness is infinite. How are these ideas able to reconcile each other? We can measure the observable universe, which is estimated to be about 93 billion light-years in diameter, but the universe is considered infinite in terms of its extent. Light takes time to travel these massive dinstances, and by the time they reach an observer, they've already become outdated measurements. In addition, results agree that the universe's expansion is accelerating, without any sign that it could stop. So even if the size of the universe was not infinity, it appears to be heading in that direction <d-cite key="frieman2008dark"></d-cite>.
 {: style="text-align: justify;"}
 
-{% include figure.html path="assets/img/MeasuringUniverse.png"%}
+{% include figure.html path="assets/img/Infinity/MeasuringUniverse.png"%}
 
 Even though they lead to paradoxical statements, both are considered to be true under relativity. It might seem counter-intuitive, but this is stemming from a challenge in scientific understanding. Multiple theories regarding the same phenomena can be correct under their own set of circumstances <d-cite key="ludwig2021scientific"></d-cite>. Even though it might seem infuriating as a student, this allows a flexible approach to research. This leads to novel research, which was the cause, conclusion, and remnants in the foundational crisis of mathematics.
 {: style="text-align: justify;"}
