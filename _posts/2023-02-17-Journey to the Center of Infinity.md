@@ -4,7 +4,7 @@ title: Journey to the Center of Infinity
 description: So... are we there yet?
 tags: Mathematics Physics
 giscus_comments: true
-date: 2023-02-27
+date: 2023-02-17
 img: assets/img/Math_Vortex.png
 bibliography: 2023-02-27-Journey_to_the_Center_of_Infinity.bib
 
