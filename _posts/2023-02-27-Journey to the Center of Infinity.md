@@ -4,7 +4,7 @@ title: Journey to the Center of Infinity
 description: So... are we there yet?
 tags: Mathematics Physics
 giscus_comments: true
-date: 2023-02-17
+date: 2023-02-27
 img: assets/img/Math_Vortex.png
 bibliography: 2023-02-18-Journey_to_the_Center_of_Infinity.bib
 
@@ -143,7 +143,7 @@ $$\begin{CD}  . @= .\\ @|   @|\\  . @= .\\@. \vcenter{\hbox{$\displaystyle \math
 That leads to a strange outcome that breaks any statement in the previous section. You can quantify infinity. It's no longer an abstract tool like functions, combinatorials, or graphs. This outraged the formalists, who could not fathom considering infinity as anything else. But it was too late. As David Hilbert, famous German mathematician, piously puts it, <d-cite key="boyer1959history"></d-cite>
 {: style="text-align: justify;"}
 
-> *No one shall expel us from the paradise that Cantor has created* 
+> "*No one shall expel us from the paradise that Cantor has created*"
 
 Indeed, the genie was out of the bottle and the nature of mathematics was put into question. What is the proper role of intuition in mathematical reasoning? Is mathematics truly objective or absolute? What is the nature of similar mathematical objects? These are philosophical questions, but these led to the advancement of computer science, model theory, and theoretical physics <d-cite key="ernest2016philosophy"></d-cite>. 
 {: style="text-align: justify;"}
