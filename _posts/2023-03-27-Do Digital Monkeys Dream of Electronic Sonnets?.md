@@ -6,6 +6,7 @@ tags: Information-Theory Statistical-Mechanics Computer-Simulation
 giscus_comments: true
 date: 2023-02-03
 img: assets/img/Monkeys/Shakespeare_monkey.jpg
+og_image: assets/img/Monkeys/Shakespeare_monkey.jpg
 bibliography: 2023-03-27-Do_Digital_Monkeys_Dream_of_Electronic_Sonnets.bib
 
 authors:
