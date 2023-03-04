@@ -269,5 +269,7 @@ By this measure, a highly compressed cat video contains an entropy much larger t
 {: style="text-align: justify;"}
 
 Originally, the word "entropy" was coined by German physicist Rudolf Clausius in 1865. <d-cite key="clausius1879mechanical"></d-cite> It is derived from the Greek words "en," meaning "in," and "tropos," meaning "turn" or "transformation". <d-cite key="prigogine1987meaning"></d-cite> Clausius used the term to describe a measure of the amount of energy in a system that is no longer available to do useful work. This definition is still valid, particularly for large systems, but when physicists refer to the entropy of a system they talk about a measurement of how much of the system we are not sure of. <d-cite key="jaynes1957information"></d-cite> This measurement helps us understand the disorder or randomness of a system, and it increases as the system becomes more disordered.
+{: style="text-align: justify;"}
 
 Struggling with the concept of entropy might as well be added as one of the laws of physics. But its importance is so profound that it incites a desire to learn more about it. The results of this simulation should show you that the meaning of this physical property is much more complex than what Clausius and his contemporaries originally proposed. Hopefully reading this didn't leave you too confused, but I also hope that it gave you a desire to understand more.
+{: style="text-align: justify;"}
