@@ -1,3 +1,6 @@
+<meta property="og:image" content="https://github.com/RGambarini/Journal/blob/master/assets/img/Monkeys/Shakespeare_monkey.jpg?raw=true" />
+
+assets/img/
 ---
 layout: distill
 title: Do Digital Monkeys Dream of Electronic Sonnets?

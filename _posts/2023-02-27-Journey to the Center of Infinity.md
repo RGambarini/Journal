@@ -1,3 +1,4 @@
+<meta property="og:image" content="https://github.com/RGambarini/Journal/blob/master/assets/img/Infinity/Math_Vortex.png?raw=true" />
 ---
 layout: distill
 title: Journey to the Center of Infinity
