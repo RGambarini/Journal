@@ -5,8 +5,7 @@ description: So... are we there yet?
 tags: Mathematics Physics
 giscus_comments: true
 date: 2023-02-02
-img: 
-  src: assets/img/Infinity/Math_Vortex.png
+img: assets/img/Infinity/Math_Vortex.png
 bibliography: 2023-02-18-Journey_to_the_Center_of_Infinity.bib
 
 authors:
