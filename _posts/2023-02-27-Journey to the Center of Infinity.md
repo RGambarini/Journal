@@ -1,4 +1,3 @@
-<meta property="og:image" content="https://github.com/RGambarini/Journal/blob/master/assets/img/Infinity/Math_Vortex.png?raw=true" />
 ---
 layout: distill
 title: Journey to the Center of Infinity
@@ -212,3 +211,5 @@ The paradox of infinity has challenged and inspired human understanding for thou
 > "*Science is not only compatible with spirituality; it is a profound source of spirituality. When we recognize our place in an immensity of light years and in the passage of ages, when we grasp the intricacy, beauty, and subtlety of life, then that soaring feeling, that sense of elation and humility combined, is surely spiritual.*" - Carl Sagan
 
 <d-cite key="sagan2011demon"></d-cite>
+
+<meta property="og:image" content="https://github.com/RGambarini/Journal/blob/master/assets/img/Infinity/Math_Vortex.png?raw=true" />
