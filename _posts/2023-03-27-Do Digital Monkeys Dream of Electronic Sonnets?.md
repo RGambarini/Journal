@@ -273,3 +273,4 @@ Originally, the word "entropy" was coined by German physicist Rudolf Clausius in
 
 Struggling with the concept of entropy might as well be added as one of the laws of physics. But its importance is so profound that it incites a desire to learn more about it. The results of this simulation should show you that the meaning of this physical property is much more complex than what Clausius and his contemporaries originally proposed. Hopefully reading this didn't leave you too confused, but I also hope that it gave you a desire to understand more.
 {: style="text-align: justify;"}
+
