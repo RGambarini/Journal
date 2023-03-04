@@ -5,7 +5,8 @@ description: The curious birth of information from randomness
 tags: Information-Theory Statistical-Mechanics Computer-Simulation
 giscus_comments: true
 date: 2023-02-03
-img: assets/img/Monkeys/Shakespeare_monkey.jpg
+img: 
+  src: assets/img/Monkeys/Shakespeare_monkey.jpg
 bibliography: 2023-03-27-Do_Digital_Monkeys_Dream_of_Electronic_Sonnets.bib
 
 authors:
@@ -268,5 +269,3 @@ By this measure, a highly compressed cat video contains an entropy much larger t
 {: style="text-align: justify;"}
 
 Originally, the word "entropy" was coined by German physicist Rudolf Clausius in 1865. It is derived from the Greek words "en," meaning "in," and "tropos," meaning "turn" or "transformation." Clausius used the term to describe a measure of the amount of energy in a system that is no longer available to do useful work. Although this definition is still used, and is perfectly reasonable in large systems, when physicists refer to the entropy of a system they talk about a measurement of how much of the system we are not sure of. 
-
-<meta property="og:image" content="https://github.com/RGambarini/Journal/blob/master/assets/img/Monkeys/Shakespeare_monkey.jpg?raw=true" />
