@@ -221,7 +221,7 @@ Based on this graph alone, it might be logical to think that ~$$10$$ letter word
 
 $$(\frac{1}{88})^{6} = \frac{1}{88} \times \frac{1}{88} \times ... \times \frac{1}{88} = \frac{1}{464,404,086,784}$$
 
-Now that we have the probabilities in place, how does it help us determining the amount of information contained? Information theory provides us a method to quantify the amount of information contained in a file using the concept of entropy. The mere mention of [entropy](https://en.wikipedia.org/wiki/Entropy) can cause anxiety to most scientists. It is a complex and abstract concept that is central to several fields of science. It has multiple meanings, different interpretations, and a wide array of formulations. More than anything, people find it non-intuitive. In this case, entropy measures the amount of uncertainty or randomness in our data. In information theory, it represents the amount of uncertainty or randomness in data.
+Now that we have the probabilities in place, how does it help us determining the amount of information contained? Information theory provides us a method to quantify the amount of information contained in a file using the concept of entropy. The mere mention of [entropy](https://en.wikipedia.org/wiki/Entropy) can cause anxiety to most scientists. It is a complex and abstract concept that is central to several fields of science. It has multiple meanings, different interpretations, and a wide array of formulations. More than anything, people find it non-intuitive. In this case, entropy measures the amount of uncertainty or randomness in our data.
 {: style="text-align: justify;"}
 
 {% include figure.html path="assets/img/Monkeys/entropy.jpg"%}
