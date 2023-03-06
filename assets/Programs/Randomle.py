@@ -47,7 +47,7 @@ while True:
     num_failures += 1
 
     # Check if the user has reached the limit of 6 failed attempts
-    if num_failures == 5:
+    if num_failures == 6:
         print(f'You have reached the limit of {num_failures} failed attempts')
         print(f'The word was: {target_word}')
         print('You get nothing')
