@@ -8,7 +8,6 @@ st1 = st2 = [' '] * 5
 
 # Generate a random 5-character target word using the keyboard_chars set
 target_word = ''.join(random.choices('abcdefghijklmnopqrstuvwxyzQWERTYUIOPASDFGHJKLZXCVBNM1234567890`~!@#$%^&()-=[]{}\;:,<.>/?+', k=5))
-print(f'Target word: {target_word}')
 
 # Initialize the number of failed attempts to 0
 num_failures = 0
