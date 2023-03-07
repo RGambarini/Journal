@@ -278,13 +278,26 @@ What if we were to be more strict regarding our analysis? If we were to imitate 
 Originally, the word "entropy" was coined by German physicist Rudolf Clausius in 1865. <d-cite key="clausius1879mechanical"></d-cite> It is derived from the Greek words "en," meaning "in," and "tropos," meaning "turn" or "transformation". <d-cite key="prigogine1987meaning"></d-cite> Clausius used the term to describe a measure of the amount of energy in a system that is no longer available to do useful work. This definition is still valid, particularly for large systems, but when physicists refer to the entropy of a system they talk about a measurement of how much of the system we are not sure of. <d-cite key="jaynes1957information"></d-cite> 
 {: style="text-align: justify;"}
 
-This measurement helps us understand the disorder or randomness of a system, and it increases as the system becomes more disordered. Imagine a box of magic bouncing balls. They're magical in the way that they never lose their momentum. Meaning that once they start bouncing, we can't stop them unless we manually set them in stasis. We start with every ball perfectly at rest. We would always be able to easily determine each ball's position and velocity (x, 0). Our box contains no uncertainty, no randomness, no entropy. 
+This measurement helps us understand the disorder or randomness of a system, and it increases as the system becomes more disordered. Imagine a box of magic bouncing balls. They're magical in the way that they never lose their momentum. Meaning that once they start bouncing, they can't stop unless we manually set them in stasis. Likewise, they won't be able to start moving without our intervention. We start with every ball perfectly at rest. We would always be able to easily determine each ball's position and velocity (x, 0). Our box contains no uncertainty, no randomness, no entropy. 
 {: style="text-align: justify;"}
 
 {% include figure.html path="assets/img/Monkeys/bouncing_balls.jpg"%}
 
-If we were to set one of our balls in motion, then we end up increasing the entropy of the box slightly. Now we are not able to define the position and velocity of every ball. We've added a some uncertainty in our system. The same occurs by putting every ball in our box in motion and the entropy rises exponentially. This same concept can be a applied to a system with a gas. Where every bouncing ball can be replaced with a molecule. The entropy in this system can be calculated, and from that, properties such as temperature and pressure can be naturally inferred.
+If we were to set one of our balls in motion, then we end up increasing the entropy of the box slightly. Now its going to be more challenging to define the position and velocity of every ball. We've added a some uncertainty in our system. The same occurs by putting every ball in our box in motion. The entropy rises directly by increasing the number of balls and their speed. This same concept can be a applied to a system with a gas. Where every bouncing ball can be replaced with a molecule. The entropy in this system can be calculated, and from that, properties such as temperature and pressure can be naturally inferred.
 {: style="text-align: justify;"}
+
+Is Shannon's entropy of information the same as this? Entropy in statistical mechanics and information theory are both measures of disorder or uncertainty, and they both have the same mathematical form when expressed in terms of probabilities. The Boltzmann distribution is a probability distribution that gives the probability of a system being in a certain state as a function of that state’s energy and the temperature of the system
+
+{% include figure.html path="assets/img/Monkeys/boltzmann.jpg"%}
+
+<div class="caption">
+    This figure shows the probability of a system being in a certain state as a function of that state’s energy and temperature, according to the Boltzmann distribution1. The x-axis represents the energy of the state and the y-axis represents the probability.
+</div>
+
+Energy and information are both subject to the same fundamental constraints of thermodynamics, and they can be seen as two different forms of entropy. There is a connection between bits of information and bits of energy, where the energy content of a physical system is related to the amount of information that it can store or process. The entropy of a black hole can be thought of as the amount of information that is hidden behind the event horizon, beyond the reach of any observer outside the black hole. The energy of a black hole can be converted into information, or vice versa, through the process of Hawking radiation.
+{: style="text-align: justify;"}
+
+{% include figure.html path="assets/img/Monkeys/water_black.jpg"%}
 
 You might be wondering the difference between these 'bits' from entropy and the 'bits' encoded in the 3.7 Gbs of data we have generated. <d-footnote>1 GB = 1,073,741,824 bytes * 8 bits/byte = 8,589,934,592 bits</d-footnote> The bits in a file size refer to the amount of storage required to represent the contents of a file, while the bits in the entropy of information refer to the amount of uncertainty or randomness in a given set of information. That being said, they both refer to the same unit value. The significant difference in these values suggests that the contents contain a large amount of redundancy.
 {: style="text-align: justify;"}
