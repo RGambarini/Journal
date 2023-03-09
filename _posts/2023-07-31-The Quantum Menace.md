@@ -137,7 +137,7 @@ Bohr's complementarity tells us the first *weird* property from quantum theory. 
     <em>Werner Heisenberg</em>
 </div>
 
-Heisenberg's own research built upon Bohr's ideas of complementarity and expanded upon them to develop the mathematical framework of quantum mechanics. While his supervisor's work showed that particle and wave properties complement each other to fully define a photon's properties, Heisenberg wanted to establish this rule at a more fundamental level.
+Heisenberg's own research built upon Bohr's ideas of complementarity and expanded upon them to develop the mathematical framework of quantum mechanics. His supervisor's work showed that particle and wave properties complement each other to fully define a photon's properties. Heisenberg wanted to establish this rule at a more fundamental level.
 {: style="text-align: justify;"}
 
 {% include figure.html path="assets/img/Quantum Menace/alice.jpeg"%}
@@ -149,7 +149,7 @@ Heisenberg's [uncertainty principle](https://en.wikipedia.org/wiki/Uncertainty_p
 
 $$ \Delta x \Delta p \ge \frac{h}{4 \pi} $$
 
-This is not as outlandish as it superficially seems. Consider the act of taking a picture as an individual measurement, and the act of making a video as a separate individual measurement. At a drag race, I take a picture of the speeding cars while you take a video with your smartphone. My picture provides a perfect representation of the position of the car, but I have no idea of its speed. Alternatively, your video gives you an idea the speed from the time it took to reach its final position from the start of the recording. While your video gives you a good measurement of the speed, the position of the car is spread throughout the first and final frame.
+This is not as outlandish as it superficially seems. Consider the act of taking a picture as an individual measurement, and the act of making a video as a separate individual measurement. At a drag race, I take a picture of the speeding cars while you take a video with your smartphone. My picture provides a perfect representation of the position of the car, but I have no idea of its speed. Alternatively, your video gives you the speed from the time it took to reach its final position from the start of the recording. While your video gives you a good measurement of the speed, the position of the car is spread throughout the first and final frame.
 {: style="text-align: justify;"}
 
 Obviously this is not an apples to apples comparison. As a rule of thumb there are no good analogies in quantum theory. Analogies invariably ignore factors that are fundamental in the understanding of quantum theory. The uncertainty principle is simply not applicable at our scale. <d-cite key="home1995incompatibility"></d-cite> At the [macroscopic scale](https://en.wikipedia.org/wiki/Macroscopic_scale), the position and velocity can be measured with arbitrary precision, as the uncertainties are much smaller than the values of these properties. Macroscopic objects have much larger masses and velocities than the particles that obey quantum mechanics. While large objects still follow the uncertainty principle, their behavior is not affected by it.
