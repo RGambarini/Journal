@@ -4,10 +4,10 @@ title: Do Digital Monkeys Dream of Electronic Sonnets?
 description: The curious birth of information from randomness
 tags: Information-Theory Statistical-Mechanics Computer-Simulation
 giscus_comments: true
-date: 2023-02-03
+date: 2023-01-29
 img: assets/img/Monkeys/Shakespeare_monkey.jpg
 og_image: https://raw.githubusercontent.com/RGambarini/Journal/master/assets/img/Monkeys/Shakespeare_monkey.jpg
-bibliography: 2023-03-27-Do_Digital_Monkeys_Dream_of_Electronic_Sonnets.bib
+bibliography: 2023-05-29-Do_Digital_Monkeys_Dream_of_Electronic_Sonnets.bib
 
 authors:
   - name: Roberto A. Gambarini
@@ -70,7 +70,7 @@ $$\uparrow \qquad \qquad \downarrow$$
 $$\leftarrow \qquad \qquad \rightarrow$$
 
 <div class="caption">
-    Binary numbers can be used in different ways. Such as expressing directions, simple answers, and even as an alternative representation of morse code.
+    <em>Binary numbers can be used in different ways. Such as expressing directions, simple answers, and even as an alternative representation of morse code.</em>
 </div>
 
 This standard was not decided haphazardly. The binary values of 1 and 0 could be used to represent simple logical operations, and it is this versatility that allowed computers to tackle a wide array of problems <d-cite key="ralston1993encyclopedia"></d-cite>.
@@ -99,7 +99,7 @@ In the [US Powerball](https://www.flalottery.com/exptkt/pwrball-odds.pdf), five 
 {% include figure.html path="assets/img/Monkeys/powerball.png"%}
 
 <div class="caption">
-    A simple representation of how the lottery numbers are drawn. Each white ball is uniquely numbered from 1 to 69 and each red Powerball is uniquely numbered from 1 to 26. During the picking, a mechanism will propel one of the balls outside of the box to ensure a random pick. Lovely lady announcing the numbers not included
+    <em>A simple representation of how the lottery numbers are drawn. Each white ball is uniquely numbered from 1 to 69 and each red Powerball is uniquely numbered from 1 to 26. During the picking, a mechanism will propel one of the balls outside of the box to ensure a random pick. Lovely lady announcing the numbers not included.</em>
 </div>
 
 How likely are you to win the jackpot? First let's consider the total number of possible combinations that might occur in this game. [Combinatorics](https://en.wikipedia.org/wiki/Combinatorics) is a branch of mathematics that deals with the study of counting and arranging objects or elements. In this case we only care about how many different $$r$$ arrangements we can get from $$n$$. When $$r = 5$$ and $$n = 69$$ the solution is as follows:
@@ -108,7 +108,7 @@ How likely are you to win the jackpot? First let's consider the total number of 
 $$C(r,n) = \frac{n!}{r!(n-r)!} = \frac{69!}{5!(69-5)!} = \frac{69 \times 68 \times 67 ... \times 1}{5 \times 4 ... \times 1 \times 64 \times 63 ... \times 1} = 11,238,513$$
 
 <div class="caption">
-    Reminder that the factorial of a number would be a series of operations in a number is multiplied by by the same number minus one until its multiplied by 1 $$a! = a \times (a - 1) \times ... \times 1 $$
+    <em>Reminder that the factorial of a number would be a series of operations in a number is multiplied by by the same number minus one until its multiplied by 1 $$a! = a \times (a - 1) \times ... \times 1 $$</em>
 </div>
 
 For the single red Powerball it is as simple as:
@@ -122,7 +122,7 @@ So we are left to choose between $$11,238,513$$ (known as $$N$$) possible combin
 $$ P = \frac{n}{N} =  \frac{1}{11,238,513} \times \frac{1}{26} = \frac{1}{292,201,328}$$
 
 <div class="caption">
-    A 1 in 292,201,328 chance of winning certainly feels impossible. Knowing this, you should ask yourself a single question next time you are going to buy a lottery number <p>
+    <em>A 1 in 292,201,328 chance of winning certainly feels impossible. Knowing this, you should ask yourself a single question next time you are going to buy a lottery number</em> <p>
     <em>Do I feel lucky</em><d-footnote>Well do you, punk?</d-footnote> </p>
 </div>
 
@@ -132,7 +132,7 @@ To calculate the probability of success for the infinite monkey theorem, we need
 $$ P = \frac{n}{N} =   \frac{1}{88} = 0.0113636... \approx 1.14\% $$
 
 <div class="caption">
-    The probability of each individual input
+    <em>The probability of each individual input</em>
 </div>
 
 The [Gutenberg project](gutenberg.org) is repository that provides an extensive source of books that have way past expired their copyright rights. Using this resource we are able to acquire a copy of William Shakespeare's complete works in .txt format. The number of characters in "[The Complete Works of William Shakespeare](https://www.gutenberg.org/ebooks/100)" is about 5,480,868. In order for the monkey to write the full text in a single sitting becomes vanishingly small:
@@ -149,7 +149,7 @@ $$ P(x) = 1 - (1 - P_i)^{x} \approx 1 $$
 $$P(x) = 1 - (1 - 10^{-10^{7.007739000088917}})^{x} \approx 1 $$
 
 <div class="caption">
-    Starting from the complement rule, which states that the probability of an event occurring is equal to 1 minus the probability of the event not occurring, we can find the attempt x where the event is most likely.
+    <em>Starting from the complement rule, which states that the probability of an event occurring is equal to 1 minus the probability of the event not occurring, we can find the attempt x where the event is most likely.</em>
 </div>
 
 ***
@@ -179,7 +179,7 @@ Now that we have our tools, let's start defining our workspace. Until the machin
 {% include figure.html path="assets/img/Monkeys/limit_test.jpg"%}
 
 <div class="caption">
-    This figure shows the average time it required an individual process to complete its designated task when multiple processes are executed in parallel.
+    <em>This figure shows the average time it required an individual process to complete its designated task when multiple processes are executed in parallel.</em>
 </div>
 
 At low levels of parallelism (e.g. 100 processes), the program may be able to efficiently utilize the available hardware resources without encountering bottlenecks or fight for shared resources. At high levels of parallelism (e.g. 500 processes), the program may start to encounter hardware limitations such as network bandwidth, disk I/O, or memory bandwidth that limit the overall performance of the program. Not a great look for how well optimized this simulation is, but good enough to get the data that we need. We will use 120 for our number of processes as this is the minimum value in our line of best fit.
@@ -199,7 +199,7 @@ At the end of our simulation, we managed to produce 3.7 Gbs of text in the span 
 {% include figure.html path="assets/img/Monkeys/initial-data.jpg"%}
 
 <div class="caption">
-    Percentage of word length in our data. Crosses represent the number of instances of the given word length divided by the total number of number of characters in our data. The curve shows the relative trend that this analysis follows.
+    <em>Percentage of word length in our data. Crosses represent the number of instances of the given word length divided by the total number of number of characters in our data. The curve shows the relative trend that this analysis follows.</em>
 </div>
 
 This simply won't do. We are currently including every single character in the data, regardless if it is significant or not. We need to establish criteria for tagging words in our dataset. Although the letter 'a' is a perfectly reasonable word, it leaves too much to interpretation regarding how much 'information' it provides in the text. We can't be sure of what is a random input or what would be a significant word. So for this analysis, we will simply ignore any words that are made of a single character. <d-footnote>Feel free to rant on this decision down below.</d-footnote>
@@ -213,7 +213,7 @@ Our analysis shows that there is a $$15.915$$% chance that a two-letter word sho
 {% include figure.html path="assets/img/Monkeys/dictionary.jpg"%}
 
 <div class="caption">
-    Our dictionary contains 479k English words which include 20+ character words that are not significant during this study.
+    <em>Our dictionary contains 479k English words which include 20+ character words that are not significant during this study.</em>
 </div>
 
 Based on this graph alone, it might be logical to think that ~$$10$$ letter words should be more prevalent in our data. To resolve this inconsistency, we must return to our probability calculations. We must remember that every consecutive character is confined by a probability. If we want a $$6$$ letter word and we currently have $$88$$ different options, then every input to our data is restricted by the distribution of this probability:
@@ -240,7 +240,7 @@ Let's consider the entropy of information for "The Complete Works of William Sha
 {% include figure.html path="assets/img/Monkeys/shakespeare_data.jpg"%}
 
 <div class="caption">
-    Probability of word length in "The Complete Works of William Shakespeare"
+    <em>Probability of word length in "The Complete Works of William Shakespeare".</em>
 </div>
 
 Calculating the entropy requires us to define a probability distribution that a word of a particular length would be found in the file:
@@ -261,7 +261,7 @@ Keep in mind, we're not dealing with a random sequence of words in Shakespeare's
 {% include figure.html path="assets/img/Monkeys/wordle.jpg"%}
 
 <div class="caption">
-    Begrudgingly revealing my first word strategy.
+    <em>Begrudgingly revealing my first word strategy.</em>
 </div>
 
 *For some reason*, the online game [Wordle](https://www.nytimes.com/games/wordle/index.html) became a massive hit in the year 2020 . It challenges a player to guess a five-letter word in six attempts, and reveals feedback on which letters are correct, incorrect, or in the correct position. Naturally, we start by choosing a word that eliminates a significant number of vowels or maybe very common consonants. With the given feedback, we are able to correctly guess our word in as little as two attempts. <d-footnote>No. No one believes you got it on your first try</d-footnote> This is due to what we've stated regarding the 'predictability' of the english language. Attempting to play Wordle without any linguistic rules would be quite the challenge.
@@ -272,6 +272,8 @@ Introducing [Random-le](https://colab.research.google.com/drive/1FgIMvCSQIXEmZ5H
 
 What if we were to be more strict regarding our analysis? If we were to imitate more closely the rules of language, then the entropy in our analysis should resemble those found in standard texts. To illustrate how a more meticulous analysis should lead us closer to Shannon's results, let's do one final calculation. We did not consider the effect that cases would have on the readability of the file. Meaning that so far, 'Hello World' and 'helLo wORlD' are the same. To rectify this, let's consider 'penalizing' the word count for every mistake in the word. Meaning that 'enTRopy' would be counted as a $$5$$ letter word instead of $$7$$. For example, the probability of finding a two letter word is now $$12.227$$% instead of the previous $$15.915$$%. By applying additional rules, we've increased the entropy of information based on word length to $$1.328$$ bits. Which inches us closer to the entropy found in Shannon's work and Shakespeare's writings. 
 {: style="text-align: justify;"}
+
+***
 
 ## Where art thou my Entropy?
 
@@ -291,7 +293,7 @@ Is Shannon's entropy of information the same as this? Entropy in statistical mec
 {% include figure.html path="assets/img/Monkeys/boltzmann.jpg"%}
 
 <div class="caption">
-    This figure shows the probability of a system being in a certain state as a function of that state’s energy and temperature, according to the Boltzmann distribution1. The x-axis represents the energy of the state and the y-axis represents the probability.
+    <em>This figure shows the probability of a system being in a certain state as a function of that state’s energy and temperature, according to the Boltzmann distribution1. The x-axis represents the energy of the state and the y-axis represents the probability.</em>
 </div>
 
 Energy and information are both subject to the same fundamental constraints of thermodynamics, and they can be seen as two different forms of entropy. There is a connection between bits of information and bits of energy, where the energy content of a physical system is related to the amount of information that it can store or process. The entropy of a black hole can be thought of as the amount of information that is hidden behind the event horizon, beyond the reach of any observer outside the black hole. The energy of a black hole can be converted into information, or vice versa, through the process of Hawking radiation. <d-cite key="susskind2004introduction"></d-cite>

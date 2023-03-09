@@ -4,10 +4,10 @@ title: Journey to the Center of Infinity
 description: So... are we there yet?
 tags: Mathematics Physics
 giscus_comments: true
-date: 2023-02-02
+date: 2023-01-27
 img: assets/img/Infinity/Math_Vortex.png
 og_image: https://raw.githubusercontent.com/RGambarini/Journal/master/assets/img/Infinity/Math_Vortex.png
-bibliography: 2023-02-18-Journey_to_the_Center_of_Infinity.bib
+bibliography: 2023-03-27-Journey_to_the_Center_of_Infinity.bib
 
 authors:
   - name: Roberto A. Gambarini
@@ -63,7 +63,7 @@ Then there is Graham's number, which was derived by Ronald Graham in the late 19
 {% include figure.html path="assets/img/Infinity/White_hypercube.png"%}
 
 <div class="caption">
-    Graham's Number is given by the upper bound of the following problem: Connect each pair of geometric vertices of an n-dimensional hypercube to obtain a complete graph on 2^n vertices. Colour each of the edges of this graph either red or blue. What is the smallest value of n for which every such colouring contains at least one single-coloured complete subgraph on four coplanar vertices?.
+    <em>Graham's Number is given by the upper bound of the following problem: Connect each pair of geometric vertices of an n-dimensional hypercube to obtain a complete graph on 2^n vertices. Colour each of the edges of this graph either red or blue. What is the smallest value of n for which every such colouring contains at least one single-coloured complete subgraph on four coplanar vertices?.</em>
 </div>
 
 You might think that this doesn't make much sense, but in the same way that one would instinctively know that an adult has to be taller than a baby, we can also intuitively define that this upper bound is much bigger than any other quantity. So large, in fact, that there is no physical analogy that I can give you. If we were to pixelate the entire universe in the [smallest possible size](https://en.wikipedia.org/wiki/Planck_units) allowed in quantum physics, that would still only give us a mere $$ 10^{184} $$. <d-cite key="ade2016planck"></d-cite> Which is only slightly bigger than a googolplex, and minuscule compared to Graham's number.
@@ -203,6 +203,8 @@ What about if we went in the other direction? As far as we know, there is no lim
 
 Even though they lead to paradoxical statements, both are considered to be true under relativity. It might seem counter-intuitive, but this is stemming from a challenge in scientific understanding. Multiple theories regarding the same phenomena can be correct under their own set of circumstances. <d-cite key="ludwig2021scientific"></d-cite> Even though it might seem infuriating as a student, this allows a flexible approach to research. This leads to novel research, which was the cause, conclusion, and remnants in the foundational crisis of mathematics.
 {: style="text-align: justify;"}
+
+***
 
 ## Yeah, we are not quite there yet
 
