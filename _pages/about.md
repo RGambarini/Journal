@@ -25,4 +25,8 @@ After completing my undergraduate degree, I pursued an MRes in **molecular engin
 
 My research interests include **quantum mechanics**, **statistical mechanics**, and **fundamental physics**, and I am eager to continue exploring these topics and their potential applications in the field of molecular engineering and beyond.
 
+<br>
+
 *I also like long walks on the beach, cozy rainy days, and a good book*
+
+<br>
