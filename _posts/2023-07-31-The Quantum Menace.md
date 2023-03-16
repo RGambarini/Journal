@@ -98,7 +98,7 @@ Although not as impactful as his previous work, Newton also published [Opticks](
 
 {% include figure.html path="assets/img/Quantum Menace/17thCen.jpg"%}
  <div class="caption">
-    <em>Thomas Young (left) and Sir Isaac Newton (right).</em>
+    <em>Thomas Young (left) <d-footnote> https://en.wikipedia.org/wiki/Thomas_Young_(scientist) </d-footnote> and Sir Isaac Newton (right). <d-footnote> https://en.wikipedia.org/wiki/Isaac_Newton </d-footnote></em>
 </div>
 
 [Young shone a beam of light through a small pinhole onto a screen](https://en.wikipedia.org/wiki/Double-slit_experiment). He put a barrier with two small holes in front of the light, and it passed through onto another screen. Young observed that the light passing through the two slits interfered with each other, creating a pattern of bright and dark fringes on the second screen. This pattern could only be explained if light behaved as a wave, similar to waves in a pool of water.<d-cite key="jaeger2009double"></d-cite> 
@@ -114,7 +114,7 @@ It was only a century later that this problem would be discussed in the context 
 
 {% include figure.html path="assets/img/Quantum Menace/20thCen.jpg"%}
  <div class="caption">
-    <em>Max Planck (Left), Albert Einstein (Center), and Niels Bohr (Right)</em>
+    <em>Max Planck (Left), <d-footnote> https://en.wikipedia.org/wiki/Max_Planck </d-footnote> Albert Einstein (Center), <d-footnote> https://en.wikipedia.org/wiki/Albert_Einstein </d-footnote> and Niels Bohr (Right) <d-footnote> https://en.wikipedia.org/wiki/Niels_Bohr </d-footnote> </em>
 </div>
 
 The idea of [particle-wave](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality)[ duality](https://en.wikipedia.org/wiki/Wave%E2%80%93particle_duality) gives a student the wrong impression about the fundamental nature of light. It is not a particle and a wave in the same way an apple is round and red. These descriptions are not fundamental in the identity of light. Neither a particle nor a wave, light is [photons](https://en.wikipedia.org/wiki/Photon). These are elementary [particles](https://en.wikipedia.org/wiki/Elementary_particle) that make up what we eventually see as light. Whether these photons behave as particles or as waves depends on how we measure them. 
@@ -134,7 +134,7 @@ Bohr's complementarity tells us the first _weird_ property of quantum theory. Th
 
 {% include figure.html path="assets/img/Quantum Menace/heisenberg.png"%}
  <div class="caption">
-    <em>Werner Heisenberg</em>
+    <em>Werner Heisenberg</em> <d-footnote> https://en.wikipedia.org/wiki/Werner_Heisenberg </d-footnote>
 </div>
 
 Heisenberg's research built upon Bohr's ideas of complementarity and expanded upon them to develop the mathematical framework of quantum mechanics. His supervisor's work showed that particle and wave properties complement each other to fully define a photon's properties. Heisenberg wanted to establish this rule at a more fundamental level.
@@ -180,7 +180,7 @@ For all the good that Schrödinger's cat problem did regarding popularizing quan
 {% include figure.html path="assets/img/Quantum Menace/erwin.png"%}
 
 <div class="caption">
-    <em>Erwin Schrödinger</em>
+    <em>Erwin Schrödinger</em> <d-footnote> https://en.wikipedia.org/wiki/Erwin_Schrödinger </d-footnote>
 </div>
 
 [Erwin Schrödinger](https://en.wikipedia.org/wiki/Erwin_Schrödinger) would probably be immeasurably dismayed by the idea that his paradox would be described as anything other than 'ridiculous'. As a proponent of clear physical theories, Schrödinger was uncomfortable with his contemporaries' interpretations that relied on probabilistic outcomes. He was opposed to what is currently known as the [Copenhagen interpretation](https://en.wikipedia.org/wiki/Copenhagen_interpretation). He insisted that the properties from a particle should not be in 'flux' before being measured, so he proposed a thought experiment of a cat in a box to show the 'absurdity' of the claim. This paradox is what could be called a *reductio ad absurdum* of the Copenhagen interpretation. Or in plain English, to 'reduce until absurdity'.
@@ -208,7 +208,7 @@ Is there a way to reduce how much our measurements interact with the observation
 {% include figure.html path="assets/img/Quantum Menace/spectrum.jpg"%}
 
 <div class="caption">
-    <em>The electromagnetic spectrum shows the different ranges of light</em> <d-cite key="spectrum"></d-cite>
+    <em>The electromagnetic spectrum shows the different ranges of light</em> <d-footnote> https://www.cyberphysics.co.uk/topics/radioact/Radio/EMSpectrumcolor.jpg </d-footnote> 
 </div>
 
 This is where it stops being challenging and becomes impossible. Light in the form of radio waves would have very little effect on our target particle, but we wouldn't get a very good image from it. <d-footnote> Imagine having to use AM radio to watch TV </d-footnote> On the other hand, ultraviolet light would give us a great-looking image but it would be strong enough to rip an electron right out of an atom. This was the problem formulated by Heisenberg when trying to measure the position and velocity of an electron. 
@@ -220,7 +220,7 @@ Uncertainty is a fundamental property of quantum systems that limits our ability
 {% include figure.html path="assets/img/Quantum Menace/detector.jpg"%}
 
 <div class="caption">
-    <em>Double slit experiment with and without detectors</em> <d-cite key="detector"></d-cite>
+    <em>Double slit experiment with and without detectors</em> <d-footnote> http://www.viewzone.com/light22.html </d-footnote> 
 </div>
 
 ***
@@ -237,15 +237,15 @@ Let's get something straight first. As far as we know:
 For reasons that should be better explained in a separate article, Einstein's theory of relativity tells us that nothing can travel faster than light. No experiment so far has contradicted this idea, and no scientist worth his degree has ever claimed otherwise. Claims of faster-than-light communication have been perpetuated by those that have only read headlines on the matter. 
 {: style="text-align: justify;"}
 
-These claims come from a phenomenon that was presented by Einstein, and similar to Schrödinger's cat, it debated a paradoxical behavior in quantum mechanics. In the year 1935 Albert Einstein, along with collaborators Boris Podolsky, and Nathan Rosen, published a paper that discussed the implications of uncertainty on two particles. The authors introduce the concept of "entanglement" between particles, in which the state of one particle is intimately connected to the state of another particle, even if they are separated by a large distance. <d-cite key="einstein1935can"></d-cite>
+These claims come from a phenomenon that was presented by Einstein, and similar to Schrödinger's cat, it debated a paradoxical behavior in quantum mechanics. In the year 1935 Albert Einstein, along with collaborators [Boris Podolsky](https://en.wikipedia.org/wiki/Boris_Podolsky), and [Nathan Rosen](https://en.wikipedia.org/wiki/Nathan_Rosen), published a paper that discussed the implications of uncertainty on two particles. The authors introduce the concept of "entanglement" between particles, in which the state of one particle is intimately connected to the state of another particle, even if they are separated by a large distance. <d-cite key="einstein1935can"></d-cite>
 {: style="text-align: justify;"}
 
-In all previous topics, we've focused on the quantum properties of a single object. In the case of entanglement, a system of two particles becomes linked and their properties are correlated. In an entangled system, measurements of one particle can instantaneously affect the state of the other particle, even if they are separated by large distances. In the typical scenario, Alice and Bob each have half of an entangled pair. Alice boards a spaceship and heads to Alpha Centauri with her entangled particle. By measuring her particle, she not only gets information about her particle but also Bob's particle. This is what Einstein referred to as "spukhafte Fernwirkung" which can be approximately translated to "spooky action at a distance". This term has become famous in it to describe this seemingly paradoxical phenomenon.
+In all previous topics, we've focused on the quantum properties of a single object. In the case of entanglement, a system of two particles becomes linked and their properties are correlated. In an entangled system, measurements of one particle can instantaneously affect the state of the other particle, even if they are separated by large distances. In the typical scenario, [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob) each have half of an entangled pair. Alice boards a spaceship and heads to [Alpha Centauri](https://en.wikipedia.org/wiki/Alpha_Centauri) with her entangled particle. By measuring her particle, she not only gets information about her particle but also Bob's particle. This is what Einstein referred to as "spukhafte Fernwirkung" which can be approximately translated to "spooky action at a distance". This term has become famous in it to describe this seemingly paradoxical phenomenon.
 {: style="text-align: justify;"}
 
 {% include figure.html path="assets/img/Quantum Menace/epr.jpg"%}
 <div class="caption">
-    <em>Albert Einstein (Left), Boris Podolsky (Middle), and Nathan Rosen (Right)</em>
+    <em>Albert Einstein (Left), <d-footnote> https://en.wikipedia.org/wiki/Albert_Einstein </d-footnote> Boris Podolsky (Middle), <d-footnote> https://en.wikipedia.org/wiki/Boris_Podolsky </d-footnote> and Nathan Rosen (Right) <d-footnote> https://en.wikipedia.org/wiki/Nathan_Rosen </d-footnote> </em>
 </div>
 
 Einstein attempted to solve this contradiction by comparing entangled particles to a pair of gloves. To him, a pair of entangled particles are created as opposites. This way, even when separated by galactic distances, they will be measured as if it was reacting to their counterpart. Unfortunately for him, multiple recent experiments have shown that entanglement is nothing like matching clothes. <d-cite key="aspectpioneering"></d-cite>
