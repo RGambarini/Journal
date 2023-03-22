@@ -4,7 +4,7 @@ title: The Quantum Menace
 description: The concepts popular science has lied to you about. Number 5 will SHOCK YOU
 tags: Quantum-Mechanics
 giscus_comments: true
-date: 2023-01-31
+date: 2023-07-31
 img: assets/img/Quantum Menace/quantum.jpg
 og_image: https://raw.githubusercontent.com/RGambarini/Journal/master/assets/img/Quantum Menace/quantum.jpg
 bibliography: 2023-07-31-The_Quantum_Menace.bib
