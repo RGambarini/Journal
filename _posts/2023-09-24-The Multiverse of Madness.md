@@ -4,10 +4,10 @@ title: The Multiverse of Madness
 description: The 4-levels of a Multiverse Theory
 tags: Quantum-Mechanics Physics Mathematics
 giscus_comments: true
-date: 2023-09-31
+date: 2023-09-24
 img: assets/img/Multiverse/multiverse.png
 og_image: https://raw.githubusercontent.com/RGambarini/Journal/master/assets/img/Multiverse/multiverse.png
-bibliography: 2023-09-25-The_Multiverse_of_Madness.bib
+bibliography: 2023-09-24-The_Multiverse_of_Madness.bib
 
 authors:
   - name: Roberto A. Gambarini
