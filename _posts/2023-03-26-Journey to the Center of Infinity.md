@@ -4,10 +4,10 @@ title: Journey to the Center of Infinity
 description: So... are we there yet?
 tags: Mathematics Physics
 giscus_comments: true
-date: 2023-03-27
+date: 2023-03-26
 img: assets/img/Infinity/Math_Vortex.png
 og_image: https://raw.githubusercontent.com/RGambarini/Journal/master/assets/img/Infinity/Math_Vortex.png
-bibliography: 2023-03-27-Journey_to_the_Center_of_Infinity.bib
+bibliography: 2023-03-26-Journey_to_the_Center_of_Infinity.bib
 
 authors:
   - name: Roberto A. Gambarini
