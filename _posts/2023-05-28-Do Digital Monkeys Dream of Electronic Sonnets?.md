@@ -4,7 +4,7 @@ title: Do Digital Monkeys Dream of Electronic Sonnets?
 description: The curious birth of information from randomness
 tags: Information-Theory Statistical-Mechanics Computer-Simulation
 giscus_comments: true
-date: 2023-04-07
+date: 2023-05-28
 img: assets/img/Monkeys/Shakespeare_monkey.jpg
 og_image: https://raw.githubusercontent.com/RGambarini/Journal/master/assets/img/Monkeys/Shakespeare_monkey.jpg
 bibliography: 2023-05-28-Do_Digital_Monkeys_Dream_of_Electronic_Sonnets.bib
@@ -135,7 +135,7 @@ $$ P = \frac{n}{N} =   \frac{1}{88} = 0.0113636... \approx 1.14\% $$
     <em>The probability of each individual input</em>
 </div>
 
-The [Gutenberg [project](gutenberg.org) is a repository that provides an extensive source of books that have way past expired their copyright rights. Using this resource we can acquire a copy of William Shakespeare's complete works in .txt format. The number of characters in "[The Complete Works of William Shakespeare](https://www.gutenberg.org/ebooks/100)" is about 5,480,868. For the monkey to write the full text in a single sitting becomes vanishingly small:
+The Gutenberg [project](gutenberg.org) is a repository that provides an extensive source of books that have way past expired their copyright rights. Using this resource we can acquire a copy of William Shakespeare's complete works in .txt format. The number of characters in "[The Complete Works of William Shakespeare](https://www.gutenberg.org/ebooks/100)" is about 5,480,868. For the monkey to write the full text in a single sitting becomes vanishingly small:
 {: style="text-align: justify;"}
 
 $$ P(n, N) = \frac{n}{N} = (\frac{1}{72})^{5,480,868} = 10^{-10^{7.007739000088917}}$$
